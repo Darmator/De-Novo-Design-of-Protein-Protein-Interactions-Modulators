@@ -27,11 +27,11 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 │   │   └── Protein_embedding.csv  
 ├── Model_Checkpoints              # Finetuned models for generation of modulators of NCS-1/Ric-8A and NCS-1/D2R
 │   ├── HierVAE
-│   │   ├── HierVAE_ric8.pth
-│   │   └── HierVAE_d2r.pth
+│   │   ├── HierVAE_ric8.ckpt.9
+│   │   └── HierVAE_d2r.ckpt.4
 │   ├── Taiga
-│   │   ├── Taiga_ric8.pth
-│   │   └── Taiga_d2r.pth
+│   │   ├── Taiga_ric8.pt
+│   │   └── Taiga_d2r.pt
 │   ├── FREED2
 │   │   ├── FREED2_ric8.pth
 │   │   └── FREED2_d2r.pth
@@ -41,7 +41,6 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 │   │   └── model_class.py         # Class defining the multi task learning bioactivity model
 │   ├── Toxicity_Model
 │   └── BBBP_Model
-
 └── Virtual_Chemical_Libraries     
 │   ├── ncs1_ric8.csv              # 1129 modulating candidates
 │   └── ncs1_d2r.csv               # 87 modulating candidates
