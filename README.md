@@ -12,7 +12,7 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 
 ```
 ├── Training_Data
-│   ├── Tox21.csv                  # Tox21 dataset
+│   ├── tox21.csv                  # Tox21 dataset
 │   ├── BBBP.csv                   # BBBP dataset
 │   ├── PPI data                   # Protein-Protein interactions modulators regression and classification data
 │   │   ├── PPI_reg.csv            
@@ -34,6 +34,9 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 │   │   ├── Ensemble
 │   │   │   └── bioactivity_model_0-9.model
 │   │   └── model_class.py         # Class defining the multi task learning bioactivity model
+│   ├── Toxicity_Model
+│   └── BBBP_Model
+
 └── Virtual_Chemical_Libraries     
 │   ├── ncs1_ric8.csv              # 1129 modulating candidates
 │   └── ncs1_d2r.csv               # 87 modulating candidates
