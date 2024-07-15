@@ -14,10 +14,10 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 ├── Training_Data
 │   ├── tox21.csv                  # Tox21 dataset
 │   ├── BBBP.csv                   # BBBP dataset
-│   ├── PPI data                   # Protein-Protein interactions modulators regression and classification data
+│   ├── PPI_data                   # Protein-Protein interactions modulators regression and classification data
 │   │   ├── PPI_reg.csv            
 │   │   └── PPI_class.csv          
-│   ├── Protein data               # Protein sequence and embedding data
+│   ├── Protein_data               # Protein sequence and embedding data
 │   │   ├── Protein_sequence.csv   
 │   │   └── Protein_embedding.csv  
 ├── Model_Checkpoints              # Finetuned models for generation of modulators of NCS-1/Ric-8A and NCS-1/D2R
@@ -27,7 +27,7 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 │   ├── Taiga
 │   │   ├── Taiga_ric8.pth
 │   │   └── Taiga_d2r.pth
-│   ├── FREED++
+│   ├── FREED2
 │   │   ├── FREED2_ric8.pth
 │   │   └── FREED2_d2r.pth
 │   ├── Bioactivity_Model
