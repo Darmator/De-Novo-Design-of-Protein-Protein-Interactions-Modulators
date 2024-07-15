@@ -15,6 +15,10 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 │   ├── tox21.csv                  # Tox21 dataset
 │   ├── BBBP.csv                   # BBBP dataset
 │   ├── PPI_data                   # Protein-Protein interactions modulators regression and classification data
+│   │   ├── Processed_reg_data
+│   │   │   ├── ppi_train.csv
+│   │   │   ├── ppi_test.csv
+│   │   │   └── preprocessing_parameters.pkl
 │   │   ├── PPI_reg.csv            
 │   │   └── PPI_class.csv          
 │   ├── Protein_data               # Protein sequence and embedding data
