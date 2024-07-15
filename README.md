@@ -22,7 +22,8 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 │   │   ├── PPI_reg.csv            
 │   │   └── Class_folds          
 │   ├── Protein_data               # Protein sequence and embedding data
-│   │   ├── Protein_sequence.csv   
+│   │   ├── Protein_sequence.csv
+│   │   ├── Protein_phy.csv        # Pre-calculated protein descriptors
 │   │   └── Protein_embedding.csv  
 ├── Model_Checkpoints              # Finetuned models for generation of modulators of NCS-1/Ric-8A and NCS-1/D2R
 │   ├── HierVAE
