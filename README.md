@@ -20,7 +20,7 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 │   │   │   ├── ppi_test.csv
 │   │   │   └── preprocessing_parameters.pkl
 │   │   ├── PPI_reg.csv            
-│   │   └── PPI_class.csv          
+│   │   └── Class_folds          
 │   ├── Protein_data               # Protein sequence and embedding data
 │   │   ├── Protein_sequence.csv   
 │   │   └── Protein_embedding.csv  
