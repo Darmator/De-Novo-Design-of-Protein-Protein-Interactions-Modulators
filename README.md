@@ -44,7 +44,7 @@ This framework is applied to generate modulators for two specific PPIs, NCS-1/Ri
 └── Virtual_Chemical_Libraries     
 │   ├── ncs1_ric8.csv              # 1129 modulating candidates
 │   └── ncs1_d2r.csv               # 87 modulating candidates
-└── thesis.pdf                     # Master's thesis
+└── master_final_project.pdf                     # Master's thesis
 ```
 
 ## References
